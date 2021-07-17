@@ -1,0 +1,30 @@
+#WRITE YAML FILE
+file_type: csv
+file_name: rock_music_data
+dataset_name: df
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Artist_Name
+    - track_name
+    - Popularity
+    - Genres
+    - Playlist
+    - danceability
+    - energy
+    - key
+    - loudness
+    - mode
+    - speechiness
+    - id
+    - uri
+    - track_href
+    - analysis_url
+    - duration_ms
+    - time_signature
+    - instrumentalness
+    - acousticness
+    - tempo
+    - valence
+    - liveness
